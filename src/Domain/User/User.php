@@ -10,22 +10,22 @@ class User implements JsonSerializable
     /**
      * @var int|null
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $username;
+    public  $username;
 
     /**
      * @var string
      */
-    private $firstName;
+    public $firstName;
 
     /**
      * @var string
      */
-    private $lastName;
+    public $lastName;
 
     /**
      * @param int|null  $id
